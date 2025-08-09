@@ -10,7 +10,7 @@ function Header(){
                <div id="header" className="flex items-center justify-between p-5 mt-2 lg:mx-20">
 
                 <div className="flex gap-2">
-                    <img src="./GreatXt.svg" className="" alt= "" />
+                    <img src="./GreatXt.svg" className="w-[100px] lg:w-auto" alt= "" />
                 </div>
 
                 <span onClick={() => setOpen (prev => !prev) } className="material-symbols-outlined text-stone-50"><span className="lg:hidden">density_medium</span> </span>
