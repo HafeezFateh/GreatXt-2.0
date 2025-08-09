@@ -63,11 +63,13 @@ function Home(){
                 
             </div>
 
-            <div className="mx-5 mt-20  ">
+            <div className="relative mt-25 overflow-x-clip ">
+                <div className="mx-5 ">
                 <h1 className="text-3xl text-stone-300 font-semibold">About us</h1>
                 <p className="text-stone-400 mt-2 text-xl text-justify">At GreatXt, we turn ambitious ideas into exceptional digital experiences.
 We are a team of creative designers, skilled developers, and problem-solvers who believe in building solutions that make an impact. From sleek websites to powerful web apps and innovative mobile applications, we blend modern design with cutting-edge technology to deliver products that not only work—but inspire.</p>
-                <img src="./logo.png" alt=""  className="float-right -mr-12"/>
+                </div>
+                <img src="./logo.png" alt=""  className="absolute -right-11 opacity-30 "/>
             </div>
 
             <div className="h-[200px]"></div>
