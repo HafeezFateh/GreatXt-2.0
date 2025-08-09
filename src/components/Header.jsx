@@ -12,8 +12,11 @@ function Header(){
                 <div className="flex gap-2">
                     <img src="./GreatXt.svg" className="w-[100px] lg:w-auto" alt= "" />
                 </div>
+                <svg onClick={() => setOpen (prev => !prev) } xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-stone-200 lg:hidden">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
 
-                <span onClick={() => setOpen (prev => !prev) } className="material-symbols-outlined text-stone-50"><span className="lg:hidden">density_medium</span> </span>
+
 
                 <div className="hidden lg:flex gap-5 text-stone-200 text-lg">  
                                
