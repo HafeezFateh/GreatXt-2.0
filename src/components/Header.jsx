@@ -7,7 +7,7 @@ function Header(){
 
     return(
         <>
-               <div id="header" className="flex items-center justify-between p-5 mt-2 lg:mx-20">
+               <div id="header" className="flex items-center justify-between p-5 mt-2 lg:mx-auto     max-w-7xl w-full">
 
                 <div className="flex gap-2">
                     <img src="./GreatXt.svg" className="w-[100px] lg:w-auto" alt= "" />
