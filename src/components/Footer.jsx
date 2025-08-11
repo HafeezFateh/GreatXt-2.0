@@ -4,7 +4,7 @@
 function Footer(){
     return(
         <>
-            <div className="h-[70px]  bg-gradient-to-b from-transparent to-stone-900/30"></div>
+            <div className="h-[70px]     bg-gradient-to-b from-transparent to-stone-900/30"></div>
             <div className="  bg-stone-900/30  flex flex-col  items-center justify-center">
                 
                 <img src="./GreatXt.svg" alt="" className="mt-5 w-[100px] lg:w-auto" />

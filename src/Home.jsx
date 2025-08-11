@@ -10,13 +10,13 @@ function Home(){
         <>
             <Layout>
 
-        <div id="hero" className="mx-5 mt-10 flex flex-col items-center lg:mt-25">
+        <div id="hero" className="mx-5 mt-10  flex flex-col items-center max-w-7xl lg:mx-auto lg:mt-25">
                 <motion.h1 initial={{ y: 50, opacity: 0 }}
                     animate={{ translateY: -60, opacity: 1 }}
-                    transition={{ duration: 0.3 }} className="p-2 bricolage-grotesque text-[43px]  lg:text-8xl bg-clip-text bg-gradient-to-br from-stone-100 to-stone-600 text-transparent ">GreatXt Agency</motion.h1>
+                    transition={{ duration: 0.3 }} className="p-2 bricolage-grotesque text-4xl  lg:text-8xl bg-clip-text bg-gradient-to-br from-stone-100 to-stone-600 text-transparent ">GreatXt Agency</motion.h1>
                 <motion.p  initial={{ y: 50, opacity: 0 }}
                     animate={{ translateY: -70, opacity: 1 }}
-                    transition={{ duration: 0.3, delay: 0.2  }} className="text-2xl lg:mt-5 poppins-regular  lg:text-4xl text-stone-300 text-center">Your <span className="text-lime-600">Brand's success</span>, <br /> is what we want.</motion.p>
+                    transition={{ duration: 0.3, delay: 0.2  }} className="text-xl lg:mt-5 poppins-regular  lg:text-4xl text-stone-300 text-center">Your <span className="text-lime-600">Brand's success</span>, <br /> is what we want.</motion.p>
            </div>
             
          
@@ -38,7 +38,7 @@ function Home(){
             </div>
             
 
-            <h1 className="text-3xl mt-20 text-stone-300 font-semibold text-center ">Our Expertise</h1>
+            <h1 className="text-3xl mt-20 text-stone-300 font-semibold text-center ">Our Services </h1>
             
             <div className="mt-10 max-w-7xl mx-5 lg:mx-auto">
             <div className="lg:mx-20">
@@ -73,6 +73,8 @@ function Home(){
                 
             </div>
 
+            {/* About us */}
+
             <div className="relative mt-25 overflow-x-clip">
                 <div className=" mx-auto max-w-7xl ">
                     <div className="lg:mx-20">                
@@ -86,6 +88,97 @@ function Home(){
                 <img src="./logo.png" alt=""  className="absolute -right-11 opacity-30 "/>
             </div>
             <div className="h-[200px]"></div>
+
+
+            {/* Our Expertise */}
+
+            <div className="h-[0px] bg-gradient-to-b from-transparent to-stone-50 "></div>
+            <div className="bg-stone-50  ">
+                <div className="max-w-7xl mx-5 lg:mx-auto pt-5  ">
+                    <h1 className="text-4xl font-semibold text-stone-700 poppins-bold  text-center my-10">Designs always transforms </h1>
+                    <div className="lg:mx-20 grid grid-cols-1 lg:grid-cols-2 gap-10">
+                        <div className=" shadow-2xl/30 shadow-stone-900 bg-gradient-to-br from-red-200 via-red-50 rounded-2xl p-3 ">
+                            <h1 className="text-3xl text-stone-100 font-semibold shadow-lg/10 rounded-xl bg-red-500 p-3 text-center">Old School Designs </h1>
+                            <ul className="p-3 flex flex-col gap-5 my-3 ">
+                                <li className="text-2xl font-semibold text-stone-800 flex gap-3 items-center ">
+                                    <img src="./wrong.png" className="w-[30px] h-[30px]" alt="" />No Branding</li>
+                                    <li className="text-2xl font-semibold text-stone-800 flex gap-3 items-center ">
+                                    <img src="./wrong.png" className="w-[30px] h-[30px]" alt="" />Gen Z Dissappointment</li>
+                                    <li className="text-2xl font-semibold text-stone-800 flex gap-3 items-center ">
+                                    <img src="./wrong.png" className="w-[30px] h-[30px]" alt="" />Less Followers</li>
+                                    <li className="text-2xl font-semibold text-stone-800 flex gap-3 items-center ">
+                                    <img src="./wrong.png" className="w-[30px] h-[30px]" alt="" />Few Leads</li>
+
+                            </ul>
+                        </div>
+                        <div className=" shadow-2xl/30 shadow-stone-900 bg-gradient-to-br from-green-100 via-green-50 rounded-2xl p-3 ">
+                            <h1 className="text-3xl text-stone-100 font-semibold shadow-lg/10 rounded-xl bg-lime-600 p-3 text-center">Modern Age Designs</h1>
+                            <ul className="p-3 flex flex-col gap-5 my-3">
+                                <li className="text-2xl font-semibold text-stone-800 flex gap-3 items-center ">
+                                    <img src="./check.png" className="w-[30px] h-[30px]" alt="" />More Branding</li>
+                                    <li className="text-2xl font-semibold text-stone-800 flex gap-3 items-center ">
+                                    <img src="./check.png" className="w-[30px] h-[30px]" alt="" />More Likes</li>
+                                    <li className="text-2xl font-semibold text-stone-800 flex gap-3 items-center ">
+                                    <img src="./check.png" className="w-[30px] h-[30px]" alt="" />More Followers</li>
+                                    <li className="text-2xl font-semibold text-stone-800 flex gap-3 items-center ">
+                                    <img src="./check.png" className="w-[30px] h-[30px]" alt="" />More Leads</li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                    
+                    <p className="my-10 p-3 lg:mx-20 text-justify lg:text-center text-3xl poppins-regular text-stone-700">At GreatXt, we follow the <span className="text-lime-600">Modern Age Design</span> patterns. In order to evolve with time our team works on the specific areas where there needs an improvement with total handcrafted code... </p>
+                  
+                    <div className="lg:mx-20  ">
+                            <h1 className="my-10 text-3xl font-semibold text-stone-800 text-center">Our Expertise</h1>
+                            <div className="grid grid-cols-1 lg:grid-cols-3 gap-5  ">
+                            <div className="bg-gradient-to-br shadow-xl rounded-xl from-violet-400 via-violet-300 to-stone-100 p-[1px] ">
+                                <div className=" rounded-xl p-5 shadow-xls bg-stone-100">
+                                    <img src="./image.png" alt="" className="rounded-xl" />
+                                    <h1 className="text-2xl font-semibold  my-3 text-lime-600">Design Research</h1>
+                                    <hr className="text-stone-300 "/>
+                                    <p className="my-3 text-lg text-stone-700 ">We research a wide variety of modern age designs in order to keep up with the current trends in the industry</p>
+
+                                </div>
+                            </div>
+                              <div className="bg-gradient-to-br rounded-xl shadow-xl from-violet-400 via-violet-300 to-stone-100 p-[1px] ">
+                                <div className=" rounded-xl p-5 shadow-xls bg-stone-100">
+                                    <img src="./image.png" alt="" className="rounded-xl" />
+                                    <h1 className="text-2xl font-semibold  my-3 text-lime-600">Market Research</h1>
+                                    <hr className="text-stone-300 "/>
+                                    <p className="my-3 text-lg text-stone-700 ">We research a wide variety of modern age designs in order to keep up with the current trends in the industry</p>
+
+                                </div>
+                            </div>
+                              <div className="bg-gradient-to-br rounded-xl shadow-xl from-violet-400 via-violet-300 to-stone-100 p-[1px] ">
+                                <div className=" rounded-xl p-5 shadow-xls bg-stone-100">
+                                    <img src="./image.png" alt="" className="rounded-xl" />
+                                    <h1 className="text-2xl font-semibold  my-3 text-lime-600">Copywriting</h1>
+                                    <hr className="text-stone-300 "/>
+                                    <p className="my-3 text-lg text-stone-700 ">We research a wide variety of modern age designs in order to keep up with the current trends in the industry</p>
+
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div className="h-[100px]"></div>
+            </div>
+            <div>
+                
+            </div>
+
+           <div className="p-10 h-[200px] w-full flex justify-center items-center relative ">
+
+            <img src="./logo.png" alt="" className="absolute inset-1/2 -translate-x-1/2 -translate-y-1/2   opacity-10 " />
+            <h1 className="text-3xl bg-gradient-to-br from-white font-bold to-stone-600 text-transparent bg-clip-text  bricolage-grotesque">Lets get things done </h1>
+           </div>
+  
+
+ 
+
+            
 
             </Layout>
 
