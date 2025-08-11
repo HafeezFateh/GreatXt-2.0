@@ -1,6 +1,7 @@
 import Layout from "./layout/Layout";
 import gsap from "gsap";
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 
 function Home(){
 
@@ -9,13 +10,17 @@ function Home(){
         <>
             <Layout>
 
-            <div id="hero" className="mx-5 mt-10 flex flex-col items-center lg:mt-25">
-                <span className="inline-block"><h1  className="p-2 bricolage-grotesque text-[43px]  lg:text-8xl bg-clip-text bg-gradient-to-br from-stone-100 to-stone-600 text-transparent">GreatXt Agency</h1></span>
-                <p className="text-2xl poppins-regular  lg:text-4xl text-stone-300 text-center">Your <span className="text-lime-600">Brand's success</span>, <br /> is what we want.</p>
-            </div>
+        <div id="hero" className="mx-5 mt-10 flex flex-col items-center lg:mt-25">
+                <motion.h1 initial={{ y: 50, opacity: 0 }}
+                    animate={{ translateY: -60, opacity: 1 }}
+                    transition={{ duration: 0.3 }} className="p-2 bricolage-grotesque text-[43px]  lg:text-8xl bg-clip-text bg-gradient-to-br from-stone-100 to-stone-600 text-transparent ">GreatXt Agency</motion.h1>
+                <motion.p  initial={{ y: 50, opacity: 0 }}
+                    animate={{ translateY: -70, opacity: 1 }}
+                    transition={{ duration: 0.3, delay: 0.2  }} className="text-2xl lg:mt-5 poppins-regular  lg:text-4xl text-stone-300 text-center">Your <span className="text-lime-600">Brand's success</span>, <br /> is what we want.</motion.p>
+           </div>
             
          
-            <div className="flex justify-center my-5 opacity-10 ">
+            <div className="flex justify-center my-5 opacity-10  ">
                 <img src="./logo.png" alt="" className=""/>
             </div>
 
@@ -23,6 +28,7 @@ function Home(){
               <div className="bg-lime-400/5 h-[250px]  w-[350px] lg:h-[300px] lg:w-[1000px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full  absolute inset-0 blur-3xl ">
                 
               </div>
+              
               <div className="grid grid-cols-2 gap-8 p-5 text-center">
                     <h1 className="text-2xl poppins-regular text-stone-300">Reached 0</h1>
                     <h1 className="text-2xl poppins-regular text-stone-300">Projects 0</h1>
@@ -33,6 +39,7 @@ function Home(){
             
 
             <h1 className="text-3xl mt-20 text-stone-300 font-semibold text-center ">Our Expertise</h1>
+            
             <div className="mt-10 max-w-7xl mx-5 lg:mx-auto">
             <div className="lg:mx-20">
             <div className=" grid grid-cols-2 lg:grid-cols-4 gap-5 ">
