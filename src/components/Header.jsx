@@ -29,13 +29,13 @@ function Header(){
 
             </div>
 
-            { open &&
-             <div className="text-3xl text-stone-200 flex flex-col border-b  border-lime-600/50 p-2  items-center lg:hidden ">
+            
+             <div className={`transition-all duration-400 overflow-hidden text-3xl text-stone-200 flex flex-col border-b  border-lime-600/50 p-2  items-center lg:hidden ${open ? "max-h-[300px] opacity-100" : "max-h-0 opacity-0" }`}>
                 <Link to='/' className="p-3 hover:text-lime-600">About</Link>
                 <Link to='/' className="p-3 hover:text-lime-600">Serices</Link>
                 <Link to='/' className="p-3 hover:text-lime-600 pb-7">Contact</Link>
             </div>
-            }
+            
         
         </>
     )
