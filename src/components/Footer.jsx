@@ -34,18 +34,18 @@ function Footer(){
 
                 {/* 5 */}
                 <div className="flex gap-3 mt-10 lg:mt-0 ">
-                    <div className="my-10 bg-stone-400/30  rounded-full">
+                    <a href="#" className="my-10 bg-stone-400/30  rounded-full">
                         <img src="./instagram.png" alt="" className="w-[40px] invert opacity-80 h-[40px] p-2 " />
-                    </div>
-                      <div className="my-10 bg-stone-400/30  rounded-full">
+                    </a>
+                      <a href="#" className="my-10 bg-stone-400/30  rounded-full">
                         <img src="./facebook.png" alt="" className="w-[40px] invert opacity-80 h-[40px] p-2 " />
-                    </div>
-                      <div className="my-10 bg-stone-400/30  rounded-full">
+                    </a>
+                      <a href="#" className="my-10 bg-stone-400/30  rounded-full">
                         <img src="./linkedin.png" alt="" className="w-[40px] invert opacity-80 h-[40px] p-2 " />
-                    </div>
-                      <div className="my-10 bg-stone-400/30  rounded-full">
+                    </a>
+                      <a href="#" className="my-10 bg-stone-400/30  rounded-full">
                         <img src="./whatsapp.png" alt="" className="w-[40px] invert opacity-80  h-[40px] p-2 " />
-                    </div>
+                    </a>
                 </div>
               </div>
                 </div>

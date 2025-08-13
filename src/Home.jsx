@@ -10,7 +10,7 @@ function Home(){
         <>
             <Layout>
 
-        <div id="hero" className="mx-5 mt-10  flex flex-col items-center max-w-7xl lg:mx-auto lg:mt-25">
+        <div id="hero" className="mx-5 mt-10  flex flex-col items-center max-w-7xl  lg:mx-auto lg:mt-25">
                 <motion.h1 initial={{ y: 50, opacity: 0 }}
                     animate={{ translateY: -60, opacity: 1 }}
                     transition={{ duration: 0.3 }} className="p-2 bricolage-grotesque text-4xl  lg:text-8xl bg-clip-text bg-gradient-to-br from-stone-100 to-stone-600 text-transparent ">GreatXt Agency</motion.h1>
@@ -48,7 +48,7 @@ function Home(){
             
             <div className="mt-10 max-w-7xl mx-5 lg:mx-auto">
             <div className="lg:mx-20">
-            <div className=" grid grid-cols-2 lg:grid-cols-4 gap-5 ">
+            <div className=" grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-5 ">
                 <div className="border border-lime-500/50 rounded-xl flex flex-col items-center justify-center">
                      <img src="./logo.png" alt="" className="w-[100px]"/>
                     <h1 className="text-xl text-stone-300 ">Websites </h1>
@@ -85,8 +85,8 @@ function Home(){
                 <div className=" mx-auto max-w-7xl ">
                     <div className="lg:mx-20">                
                         <div className="mx-5 lg:mx-auto" >
-                            <h1 className="text-3xl text-stone-300 font-semibold lg:text-center">About us</h1>
-                            <p className="text-stone-400 mt-2 text-xl text-justify">At GreatXt, we turn ambitious ideas into exceptional digital experiences.
+                            <h1 className="text-3xl text-stone-300 font-semibold md:text-center lg:text-center">About us</h1>
+                            <p className="text-stone-400 mt-2 text-xl text-justify md:text-center ">At GreatXt, we turn ambitious ideas into exceptional digital experiences.
                             We are a team of creative designers, skilled developers, and problem-solvers who believe in building solutions that make an impact. From sleek websites to powerful web apps and innovative mobile applications, we blend modern design with cutting-edge technology to deliver products that not only work—but inspire.</p>
                         </div>
                     </div>
@@ -102,7 +102,7 @@ function Home(){
             <div className="bg-stone-50  ">
                 <div className="max-w-7xl mx-5 lg:mx-auto pt-5  ">
                     <h1 className="text-4xl font-semibold text-stone-700 poppins-bold  text-center my-10">Designs always transforms </h1>
-                    <div className="lg:mx-20 grid grid-cols-1 lg:grid-cols-2 gap-10">
+                    <div className="lg:mx-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
                         <div className=" shadow-2xl/30 shadow-stone-900 bg-gradient-to-br from-red-200 via-red-50 rounded-2xl p-3 ">
                             <h1 className="text-3xl text-stone-100 font-semibold shadow-lg/10 rounded-xl bg-red-500 p-3 text-center">Old School Designs </h1>
                             <ul className="p-3 flex flex-col gap-5 my-3 ">
@@ -134,14 +134,14 @@ function Home(){
 
                     </div>
                     
-                    <p className="my-10 p-3 lg:mx-20 text-justify lg:text-center text-3xl poppins-regular text-stone-700">At GreatXt, we follow the <span className="text-lime-600">Modern Age Design</span> patterns. In order to evolve with time our team works on the specific areas where there needs an improvement with total handcrafted code... </p>
+                    <p className="my-10 p-3 lg:mx-20 text-justify md:text-center lg:text-center text-3xl poppins-regular text-stone-700">At GreatXt, we follow the <span className="text-lime-600">Modern Age Design</span> patterns. In order to evolve with time our team works on the specific areas where there needs an improvement with total handcrafted code... </p>
                   
                     <div className="lg:mx-20  ">
                             <h1 className="my-10 text-3xl font-semibold text-stone-800 text-center ">Our Expertise</h1>
-                            <div className="grid grid-cols-1 lg:grid-cols-3 gap-5  ">
+                            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5  ">
                             <div className="bg-gradient-to-br shadow-xl rounded-xl from-violet-400 via-violet-300 to-stone-100 p-[1px] ">
-                                <div className=" rounded-xl p-5 shadow-xls bg-stone-100">
-                                    <img src="./design.jpg" alt="" className="rounded-xl h-[200px] w-full " />
+                                <div className=" rounded-xl p-5 shadow-xl bg-stone-100">
+                                    <img src="./design.jpg" alt="" className="rounded-xl h-[250px] w-full object-cover" />
                                     <h1 className="text-2xl font-semibold  my-3 text-lime-600">Design Research</h1>
                                     <hr className="text-stone-300 "/>
                                     <p className="my-3 text-lg text-stone-700 ">We research a wide variety of modern age designs in order to keep up with the current trends in the industry.</p>
@@ -149,8 +149,8 @@ function Home(){
                                 </div>
                             </div>
                               <div className="bg-gradient-to-br rounded-xl shadow-xl from-violet-400 via-violet-300 to-stone-100 p-[1px] ">
-                                <div className=" rounded-xl p-5 shadow-xls bg-stone-100">
-                                    <img src="./marketing.jpg" alt="" className="rounded-xl h-[200px] w-full" />
+                                <div className=" rounded-xl p-5 shadow-xl bg-stone-100">
+                                    <img src="./marketing.jpg" alt="" className="rounded-xl h-[250px] w-full object-cover" />
                                     <h1 className="text-2xl font-semibold  my-3 text-lime-600">Market Research</h1>
                                     <hr className="text-stone-300 "/>
                                     <p className="my-3 text-lg text-stone-700 ">We also research a wide variety of modern marketing strategies to upgrade with respect to market trends.</p>
@@ -158,8 +158,8 @@ function Home(){
                                 </div>
                             </div>
                               <div className="bg-gradient-to-br rounded-xl shadow-xl from-violet-400 via-violet-300 to-stone-100 p-[1px] ">
-                                <div className=" rounded-xl p-5 shadow-xls bg-stone-100">
-                                    <img src="./copywriting.jpg" alt="" className="rounded-xl h-[200px] w-full" />
+                                <div className=" rounded-xl p-5 shadow-xl bg-stone-100">
+                                    <img src="./copywriting.jpg" alt="" className="rounded-xl h-[250px] w-full object-cover" />
                                     <h1 className="text-2xl font-semibold  my-3 text-lime-600">Copywriting</h1>
                                     <hr className="text-stone-300 "/>
                                     <p className="my-3 text-lg text-stone-700 ">We make the best possible copies for the brand in order to intrigue the leads and turn them into customers.</p>
