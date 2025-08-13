@@ -141,7 +141,7 @@ function Home(){
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-5  ">
                             <div className="bg-gradient-to-br shadow-xl rounded-xl from-violet-400 via-violet-300 to-stone-100 p-[1px] ">
                                 <div className=" rounded-xl p-5 shadow-xls bg-stone-100">
-                                    <img src="./image.png" alt="" className="rounded-xl" />
+                                    <img src="./design.jpg" alt="" className="rounded-xl h-[200px] w-full " />
                                     <h1 className="text-2xl font-semibold  my-3 text-lime-600">Design Research</h1>
                                     <hr className="text-stone-300 "/>
                                     <p className="my-3 text-md text-stone-700 ">We research a wide variety of modern age designs in order to keep up with the current trends in the industry.</p>
@@ -150,7 +150,7 @@ function Home(){
                             </div>
                               <div className="bg-gradient-to-br rounded-xl shadow-xl from-violet-400 via-violet-300 to-stone-100 p-[1px] ">
                                 <div className=" rounded-xl p-5 shadow-xls bg-stone-100">
-                                    <img src="./image.png" alt="" className="rounded-xl" />
+                                    <img src="./marketing.jpg" alt="" className="rounded-xl h-[200px] w-full" />
                                     <h1 className="text-2xl font-semibold  my-3 text-lime-600">Market Research</h1>
                                     <hr className="text-stone-300 "/>
                                     <p className="my-3 text-md text-stone-700 ">We also research a wide variety of modern marketing strategies to upgrade with respect to market trends.</p>
@@ -159,7 +159,7 @@ function Home(){
                             </div>
                               <div className="bg-gradient-to-br rounded-xl shadow-xl from-violet-400 via-violet-300 to-stone-100 p-[1px] ">
                                 <div className=" rounded-xl p-5 shadow-xls bg-stone-100">
-                                    <img src="./image.png" alt="" className="rounded-xl" />
+                                    <img src="./copywriting.jpg" alt="" className="rounded-xl h-[200px] w-full" />
                                     <h1 className="text-2xl font-semibold  my-3 text-lime-600">Copywriting</h1>
                                     <hr className="text-stone-300 "/>
                                     <p className="my-3 text-md text-stone-700 ">We make the best possible copies for the brand in order to intrigue the leads and turn them into customers.</p>
